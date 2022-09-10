@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * main = print the numbers 
+ * main = print if the number is positive, zero, or negative
  *
  * Description: using the main function
- * this program prints "Numbers from 1 - 10
+ * this program prints "All single digit numbers of base 10 starting from 0
  * Return: 0
  */
 int main(void)

@@ -2,7 +2,7 @@
 
 /**
  * print_sing - function to check for a sign of a number
- * @n: is the int that we use for thr argument of the function
+ * @n: is the int that we use for the argument of the function
  * Return: Always 0 (Success)
  */
 int print_sign(int n)
@@ -12,7 +12,7 @@ int print_sign(int n)
 		_putchar('+');
 		return (1);
 	}
-	else if ( n < 0)
+	else if (n < 0)
 	{
 		_putchar('-');
 		return (-1);

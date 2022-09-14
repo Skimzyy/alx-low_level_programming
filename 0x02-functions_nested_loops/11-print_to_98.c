@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
  * print_to_98 - Prints all natural numbers from inputs to 98, in order seperated by acomma followed by a space.

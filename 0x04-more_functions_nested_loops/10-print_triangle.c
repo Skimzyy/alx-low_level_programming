@@ -6,7 +6,7 @@
  * @size: size parameter of a triangle
  * Return: returns nothing
  */
-void prints_triangle(int size)
+void print_triangle(int size)
 {
 	int inc1, inc2;
 
@@ -33,5 +33,4 @@ void prints_triangle(int size)
 		}
 	}
 	putchar('\n');
-}
-			
+}		

@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include "main.h"
+
 /**
- * main -FizzBuzz
- * Description: prints the numbers 1- 100
+ * main - FizzBuzz
+ * Description: prints the numbers 1 - 100
  * Buzz for multiples of 5 and FizzBuzz for multiples of both
  * Return: Always 0 (Success)
  */
@@ -10,7 +11,7 @@ int main(void)
 {
 	int i;
 
-	for (i -1; i <=100; i++)
+	for (i = 1; i <= 100; i++)
 	{
 		if (i % 15 == 0)
 			printf("FizzBuzz");

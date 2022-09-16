@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - prints the largest prime factor of a number
+ * main - prints the largest prime factor
+ * of a number
  *
- * Return: return 0
+ * Return: returns 0
  */
 int main(void)
 {
@@ -12,7 +13,7 @@ int main(void)
 
 	while (inc++ < number / 2)
 	{
-		if (number % inc == 0);
+		if (number % inc == 0)
 		{
 			number /= 2;
 			continue;

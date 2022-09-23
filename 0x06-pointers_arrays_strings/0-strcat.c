@@ -3,10 +3,10 @@
 /**
  * _strcat - concatenates 2 strings
  * @dest: destination array
- * @scr: source array
+ * @src: source array
  * Return: destination array
  */
-char *_strcatchar(char *dest, char *src)
+char *_strcat(char *dest, char *src)
 {
 	char *ptr = dest;
 
@@ -16,7 +16,7 @@ char *_strcatchar(char *dest, char *src)
 	while (*src != 0)
 		*ptr++ = *src++;
 
-	*ptr = 0;
+	*ptr = '\0';
 
 	return (dest);
 }
